@@ -24,7 +24,7 @@ body::before {
     background-image: linear-gradient(115deg,
             rgba(71, 27, 27, 0.8),
             rgba(17, 17, 23, 0.7)),
-        url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+        url(../Kelompok1/assets/image/image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -62,8 +62,8 @@ main {
 }
 
 .grey {
-    background-color: rgb(28, 0, 0);
-    color: #ffffff;
+    background-color: gray;
+    color: #070505;
 }
 
 nav {
@@ -162,8 +162,12 @@ section a:hover {
 }
 
 .profile {
-    background-color: #000000;
-    color: white;
+    background-color: darkolivegreen;
+    color: rgb(247, 241, 241);
+}
+.profile h2 {
+    color: #000;
+
 }
 
 .profile header {
@@ -188,7 +192,7 @@ section a:hover {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px 0 rgba(12, 8, 8, 0.2);
     border-radius: 5px;
     padding: 20px;
     margin-top: 20px;
