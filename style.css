@@ -262,12 +262,18 @@ header {
     }
 
     pre {
-        font-size: 15px;
+        font-size: 2.8vw;
     }
 
     .jumbotron {
         height: 100%;
-        font-size: 100%;
+        font-size: 2.8vw;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    pre {
+        font-size: 2.8vw;
+    }
 }
